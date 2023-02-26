@@ -1,7 +1,7 @@
 import os 
 import pandas as pd
 import streamlit as st
-import plotly.express as px
+#import plotly.express as px
 from matplotlib import image
 
 
@@ -50,8 +50,8 @@ if button:
     st.write("Go to **_kaggle_** as we don't know how to upload here.")
 
 
-img = image.imread(image_path)
-st.image(img)
+#img = image.imread(image_path)
+#st.image(img)
 
 
 
